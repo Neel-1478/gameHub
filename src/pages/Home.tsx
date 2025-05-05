@@ -6,13 +6,6 @@ import GameCard from '../components/common/GameCard';
 const Home: React.FC = () => {
   const games = [
     {
-      title: 'Ludo',
-      description: 'Classic board game for 2-4 players with dice and pawns.',
-      icon: <Dice5 size={36} className="text-blue-500" />,
-      path: '/ludo',
-      color: 'bg-blue-50 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200',
-    },
-    {
       title: 'Chess',
       description: 'Strategic board game for 2 players with pieces on a checkered board.',
       icon: <ChessKnight size={36} className="text-purple-500" />,
