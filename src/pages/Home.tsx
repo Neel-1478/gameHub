@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronRight as ChessKnight, Dice5, Trophy, Joystick, X } from 'lucide-react';
+import { ChevronRight as ChessKnight, Trophy, Joystick, X } from 'lucide-react';
 import GameCard from '../components/common/GameCard';
 
 const Home: React.FC = () => {
